@@ -18,3 +18,14 @@ if(x>y)
   printf("GCD is %d",y);
 
   }
+
+  //Addition of numbers
+  #include<stdio.h>
+  int main()
+  {
+    int a,b,sum;
+    printf("Enter any two numbers");
+    scanf("%d%d",a,y);
+    sum=a+b;
+    printf("sum = %d",sum);
+  }
