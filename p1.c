@@ -42,3 +42,38 @@ for(i=0;i<n;i++)
 }
 
 }
+
+
+//Even or Odd Number
+#include<stdio.h>
+int main()
+{
+   int x;
+printf("Enter any number");
+scanf("%d",&x);
+if(x%2==0)
+{
+printf("%d is Even");
+}
+else
+{
+printf("%d is odd");
+}
+}
+
+//Positive or negative 
+#include<stdio.h>
+int main()
+{
+   int x;
+printf("Enter any number");
+scanf("%d",&x);
+if(x>0)
+{
+printf("%d is Positive");
+}
+else
+{
+printf("%d is negative");
+}
+}
