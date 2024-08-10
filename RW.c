@@ -38,7 +38,7 @@ printf("a=%d\tb=%d\tc=%d\n",a,b,c);
 return 0;
 }
 
-//Quadratic equation program
+//Simple Mathematical equation
 #include<stdio.h>
 int main()
 {
