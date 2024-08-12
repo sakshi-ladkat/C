@@ -47,3 +47,46 @@ int y=(x*x*x)+(x*x)+x;
 printf("x=%d and y=%d",x,y);
 return 0;
 }
+
+#include <stdio.h>
+// Largest Factorial Can be 65 with 19 digits factorial value 
+int main()
+{
+   unsigned long int fact=1,n,i;
+    printf("Enter Number to find Factorial");
+    scanf("%lu",&n);
+    for(i=n;i>=2;i--)
+    {
+        fact=fact*i;
+    }
+    printf("Factorial of %lu = %lu",n,fact);
+    return 0;
+}
+
+
+//Fibonnacci Series (ITERATIVE)
+#include<stdio.h>
+int main()
+{
+    int i,n,tmp1=0,tmp2=1,tmp3=0;
+    printf("Enter Value To print series");
+    scanf("%d",&n);
+    if(n==0)
+    printf("0");
+    else if(n==1)
+    printf("0\t 1");
+    else if(n==2)
+    printf("0\t1\t1");
+    else
+    {
+    printf("0\t1\t");
+    for(i=0;i<n-1;i++)
+    {
+        tmp3=tmp1+tmp2;
+        printf("%d\t",tmp3);
+        tmp1=tmp2;
+        tmp2=tmp3;
+    }
+    }
+    return 0;
+}
