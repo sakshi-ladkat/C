@@ -90,3 +90,68 @@ int main()
     }
     return 0;
 }
+
+
+
+// Count digits in Number 
+#include <stdio.h>
+
+int main()
+{
+   int i,n,count=0;
+   printf("Enter Number");
+   scanf("%d",&n);
+   i=n;
+   while(n!=0)
+   {
+       n=n/10;
+       count++;
+   }
+   printf("Digits in %d = %d",i,count);
+  return 0;
+}
+
+
+//Reversed A Number
+#include <stdio.h>
+int main()
+{
+   int i,n,ans=0;
+   printf("Enter Number");
+   scanf("%d",&n);
+   i=n;
+   while(n!=0)
+   {
+      ans=(ans*10)+(n%10);
+      n=n/10;
+   }
+   printf("\nOriginal Number = %d\n",i);
+   
+  printf("\nresversed Number = %d",ans);
+  return 0;
+}
+
+// Palindrome or Not
+#include <stdio.h>
+
+int main()
+{
+   int i,n,ans=0;
+   printf("Enter Number");
+   scanf("%d",&n);
+   i=n;
+   while(n!=0)
+   {
+      ans=(ans*10)+(n%10);
+      n=n/10;
+   }
+   if(i==n)
+   {
+       printf("%d is palindrome",i);
+   }
+   else
+   {
+     printf("%d is Not palindrome",i);  
+   }
+  return 0;
+}
