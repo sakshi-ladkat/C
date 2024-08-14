@@ -155,3 +155,17 @@ int main()
    }
   return 0;
 }
+
+// For loop without constraints
+#include<stdio.h>
+int main()
+{
+    int n=10,i;
+    for( ; ; ; )
+    {
+        i<=10;
+        printf("This is For loop without constraints");
+        i++;
+    }
+    return 0;
+}
