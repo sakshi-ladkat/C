@@ -32,4 +32,45 @@ for(j=0;j<n;j++)
 }
 }
 
+
+//Selection sort
+#include <stdio.h>
+int main()
+{
+    int i,a[100],n,j,pos,temp;
+    printf("Enter No of Elements want to Enter");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("Enter %d th Element of Array",i);
+        scanf("%d",&a[i]);
+        
+    }
+    printf("Given Array is : ");
+     for(i=0;i<n;i++)
+    {
+        printf("%d \t",a[i]);
+        
+    }
+    for(i=0;i<n-1;i++)
+    {
+       pos=i;
+       for(j=i+1;j<n;j++)
+       {
+           if(a[j]<a[pos])
+            pos=j;
+       }
+    temp = a[i];
+    a[i] = a[pos];
+    a[pos] = temp;
+}
+     printf("\nSorted Array is : ");
+     for(i=0;i<n;i++)
+    {
+        printf("%d \t",a[i]);
+        
+    }
+    
+    return 0;
+}
    
