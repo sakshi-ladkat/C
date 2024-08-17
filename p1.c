@@ -147,3 +147,40 @@ printf("\n %d*%d=%d",n,i,n*i);
 }
 return 0;
 }
+
+
+// 
+#include <stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter an integer :");
+    scanf("%d",&a);
+    if(a<100 && a<200)
+    {
+        i=a/3;
+        if(i<50)
+        printf("Small Number\n");
+        else
+        printf("Not so big number");
+    }
+    else if(a>200 && a<300)
+    {
+        i=a/2;
+        if(i<110)
+        {
+        printf("%d\n",i);
+        }
+        else
+        {
+        i=i/5;
+        printf("%d\n",i);
+        }
+    }
+    else if(a>300 )
+    {
+        printf("Very Big Number\n");
+    }
+  
+    return 0;
+}
