@@ -71,7 +71,3 @@ printf("%d Divided by 4 = %d ",n,n/4);
 break;
 }
 }
-    
-
-
-  
