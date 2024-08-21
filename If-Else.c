@@ -1,3 +1,41 @@
+//1.c read an integer from the user and check whether the number is positive or negative.
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter any Number");
+    scanf("%d",&n);
+    if(n==0)
+    {
+        printf("%d is Neither Negative Nor Positive\n",n);
+    }
+    else if(n>0)
+    {
+        printf("%d is Positive\n",n);
+    }
+    else
+    {
+        printf("%d is Negative\n",n);
+    }
+}
+
+//2.c read an integer from the user and check whether the number is even or odd.
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter any Number");
+    scanf("%d",&n);
+    if(n%2==0)
+    {
+        printf("%d is Even\n",n);
+    }
+    else
+    {
+        printf("%d is Odd\n",n);
+    }
+}
+
 //10.c Read, a number if equal to 10 divide it by 2 if the number is equal to 20 divide
 it by 3 if the number is equal to 30 divide it by 4 if the number is equal to 50
 divide it by 5.
