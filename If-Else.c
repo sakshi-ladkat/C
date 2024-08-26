@@ -95,7 +95,116 @@ int main()
     return 0;
 }
 
-
+//6.c read an integer from the user and print a small number if the number is less than 10, print a large number if the number is greater than 10.
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter an integer :");
+    scanf("%d",&a);
+    if(a<10)
+    {
+        printf("Small Number\n");
+    }
+    else if(a>10)
+    {
+        printf("Large Number\n");
+    }
+    else
+    {
+        printf("\n %d is equal to 10",a);
+    }
+    return 0;
+}
+//7.c read a number from the user and print a small number if the number is less than 100, print a large number if the number is greate
+#include<stdio.h>
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter an integer :");
+    scanf("%d",&a);
+    if(a<100)
+    {
+        printf("Small Number\n");
+    }
+    else if(a>200 && a < 999)
+    {
+        printf("Large Number\n");
+    }
+    else if(a>1000)
+    {
+        printf("Very Large Number\n");
+    }
+    return 0;
+}
+//8.c read a number from the user and is the number if between 100 and 200 print
+small number if between 201 and 300 print big number and if the number is
+between 301 and 400 print large number and if the number is greater than
+401 print very large number.
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter an integer :");
+    scanf("%d",&a);
+    if(a<100 && a<200)
+    {
+        printf("Small Number\n");
+    }
+    else if(a>200 && a<300)
+    {
+        printf("Big Number\n");
+    }
+    else if(a>300 && a<400)
+    {
+        printf("Large Number\n");
+    }
+    else
+    {
+        printf("Very Large Number\n");
+    }
+    return 0;
+}
+//9.c read, a number from the user if the number if a number of between 100 and
+200 divide it by 3 if the result is less than 50 print small number if it is greater
+than 50 print “not so big number”. If the input number is between 200 and 300
+divide it by 2 if the result is less than 110 print the result else divide the result
+by 5 and print it. If the input is greater than 300, print a very big number.
+#include <stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter an integer :");
+    scanf("%d",&a);
+    if(a<100 && a<200)
+    {
+        i=a/3;
+        if(i<50)
+        printf("Small Number\n");
+        else
+        printf("Not so big number");
+    }
+    else if(a>200 && a<300)
+    {
+        i=a/2;
+        if(i<110)
+        {
+        printf("%d\n",i);
+        }
+        else
+        {
+        i=i/5;
+        printf("%d\n",i);
+        }
+    }
+    else if(a>300 )
+    {
+        printf("Very Big Number\n");
+    }
+  
+    return 0;
+}
 //10.c Read, a number if equal to 10 divide it by 2 if the number is equal to 20 divide
 it by 3 if the number is equal to 30 divide it by 4 if the number is equal to 50
 divide it by 5.
