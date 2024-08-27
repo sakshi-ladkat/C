@@ -1,3 +1,35 @@
+//Linear Search 
+#include <stdio.h>
+int main()
+{  
+int arr[10],n,key,i;
+    printf("Enter no of elements in array");
+    scanf("%d",&n);
+    printf("Enter elements in array");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    printf("Enter element to search");
+    scanf("%d",&key); 
+    linsearch(arr,n,key);
+}
+
+int linsearch(int arr[],int size,int element)
+{ int i;
+   for(i=0;i<size;i++)
+   {
+       if(arr[i]==element)
+       {
+           printf("Elements is present at position %d",i);
+       }
+   }
+           printf("Element is not present");
+}
+
+
+
+
 //Bubble sort
 #include <stdio.h>
 
