@@ -18,7 +18,6 @@ if(x>y)
   printf("GCD is %d",y);
 
   }
-
   //Addition of numbers
   #include<stdio.h>
   int main()
