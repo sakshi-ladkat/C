@@ -25,7 +25,7 @@ printf("Enter any number");
 scanf("%d",&x);
 if(x>0)
 {
-printf("%d is Positive");
+printf("%d is Positive")
 }
 else
 {
