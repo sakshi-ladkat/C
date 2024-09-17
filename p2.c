@@ -13,7 +13,7 @@ int main()
     
     for(j=0;j<3;j++)
     {
-        if(i==1 && j==1)
+        if(i==1 && j==1
         printf("1\t");
         else
         printf("2\t");
