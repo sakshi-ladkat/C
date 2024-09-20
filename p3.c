@@ -1,4 +1,4 @@
-//Linear Search 
+8//Linear Search 
 #include <stdio.h>
 int main()
 {  
@@ -153,5 +153,5 @@ for(i=0;i<n;i++)
         printf("\t%d ",array[i]);
         
     }
-    printf("\n");
+    printf("\n")
 }
