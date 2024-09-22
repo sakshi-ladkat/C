@@ -9,7 +9,7 @@ int main()
     {
         printf("%d\n",i);
     }
-    return 0;
+    return 0
 }
 
 //2.c Print Even numbers from 1 to N
