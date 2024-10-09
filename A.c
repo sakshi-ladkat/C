@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-   int x,y,i,r;
+   int x,y,i,r
    printf("Enter Value of X and y\n");
    scanf("%d %d",&x,&y);
 if(x>y)
