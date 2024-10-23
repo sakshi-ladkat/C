@@ -5,7 +5,7 @@ int main()
 {
    int x;
 printf("Enter any number");
-scanf("%d",&x);
+scanf("%d",&x)
 if(x%2==0)
 {
 printf("%d is Even");
