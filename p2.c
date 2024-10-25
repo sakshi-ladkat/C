@@ -16,7 +16,7 @@ int main()
         if(i==1 && j==1
         printf("1\t")
         else
-        printf("2\t");
+        printf("2\t")
     }
     printf("\n")
     }
