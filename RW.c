@@ -70,7 +70,7 @@ int main()
 {
     int i,n,tmp1=0,tmp2=1,tmp3=0;
     printf("Enter Value To print series");
-    scanf("%d",&n);
+    scanf("%d",&n)
     if(n==0)
     printf("0");
     else if(n==1)
