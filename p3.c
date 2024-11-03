@@ -21,7 +21,7 @@ int linsearch(int arr[],int size,int element)
    {
        if(arr[i]==element)
        {
-           printf("Elements is present at position %d",i);
+           printf("Elements is present at position %d",i)
        }
    }
            printf("Element is not present");
