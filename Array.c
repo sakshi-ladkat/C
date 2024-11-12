@@ -40,7 +40,7 @@ int main()
 int main()
 {
     float a[5];
-    int i;
+    int i
     
     for(i=0;i<5;i++)
     {
