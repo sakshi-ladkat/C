@@ -4,7 +4,7 @@ int main()
 {
     int n
     printf("Enter any Number");
-    scanf("%d",&n);
+    scanf("%d",&n)
     if(n==0)
     {
         printf("%d is Neither Negative Nor Positive\n",n);
