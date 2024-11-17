@@ -4,7 +4,7 @@ int main()
 {
    int x,y,i,r;
    printf("Enter Value of X and y\n");
-   scanf("%d %d",&x,&y);
+   scanf("%d %d",&x,&y)
 if(x>y)
 {
     r=x%y;
