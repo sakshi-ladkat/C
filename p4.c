@@ -53,5 +53,5 @@ int main()
     }
     
    }
-  fclose (myfile);        
+  fclose (myfile)
 }
