@@ -8,7 +8,7 @@ int arr[10],n,key,i;
     printf("Enter elements in array");
     for(i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr[i])
     }
     printf("Enter element to search");
     scanf("%d",&key); 
