@@ -6,7 +6,7 @@ int main()
     
     for(i=0;i<5;i++)
     {
-    printf("\nEnter element")
+    printf("\nEnter element");
     scanf("%d",&n);
     printf("%d\t",n);
     }
