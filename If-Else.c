@@ -15,7 +15,7 @@ int main()
     }
     else
     {
-        printf("%d is Negative\n",n)
+        printf("%d is Negative\n",n);
     }
 }
 
