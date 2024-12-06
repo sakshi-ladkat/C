@@ -12,7 +12,7 @@ printf("%d is Even");
 }
 else
 {
-printf("%d is odd")
+printf("%d is odd");
 }
 }
 
