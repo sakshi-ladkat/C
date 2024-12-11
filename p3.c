@@ -12,7 +12,7 @@ int arr[10],n,key,i;
     }
     printf("Enter element to search");
     scanf("%d",&key); 
-    linsearch(arr,n,key);
+    linsearch(arr,n,key)
 }
 
 int linsearch(int arr[],int size,int element)
