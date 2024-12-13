@@ -59,7 +59,7 @@ a[j+1]=temp;
 for(j=0;j<n;j++)
 {
 
-  printf("%d\t",a[j]);
+  printf("%d\t",a[j])
  
 }
 }
