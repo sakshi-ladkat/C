@@ -18,6 +18,6 @@ int main()
         else
         printf("2\t");
     }
-    printf("\n");
+    printf("\n")
     }
 }
