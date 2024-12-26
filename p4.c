@@ -26,7 +26,7 @@ if(x>y)
     int a,b,sum;
     printf("Enter any two numbers");
     scanf("%d%d",a,y);
-    sum=a+b;
+    sum=a+b
     printf("sum = %d",sum);
   }
 
