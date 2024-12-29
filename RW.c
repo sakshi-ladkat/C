@@ -72,7 +72,7 @@ int main()
     printf("Enter Value To print series");
     scanf("%d",&n)
     if(n==0)
-    printf("0");
+    printf("0")
     else if(n==1)
     printf("0\t 1");
     else if(n==2)
