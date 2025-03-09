@@ -12,7 +12,7 @@ if(x>y)
     {
       x=y;
       y=r;
-     r=x%y;
+     r=x%y
     }
 }
   printf("GCD is %d",y);
