@@ -1,4 +1,4 @@
-²
+
 //Even or Odd Number
 #include<stdio.h>
 int main()

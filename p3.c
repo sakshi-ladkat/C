@@ -1,4 +1,4 @@
-8//Linear Search 
+//Linear Search 
 #include <stdio.h>
 int main()
 {  
