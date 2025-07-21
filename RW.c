@@ -167,6 +167,6 @@ int main()
         printf("This is For loop without constraints");
         i++;
     }
-    return 0
+    return 0;
 }
 
